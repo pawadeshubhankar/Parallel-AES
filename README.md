@@ -2,7 +2,7 @@
 
 Usage:
 
-============================For Serial Implementation of AES: (steps) ==========================================
+========For Serial Implementation of AES: (steps) ==========
 
 1. cd SERIAL_AES
 
@@ -18,7 +18,7 @@ You can compare decrypted with plaintext for the accuracy
 
 6. diff decrypted.txt plaintext.txt
 
-============================For Parallel Implementation of AES: (steps) ==========================================
+=========For Parallel Implementation of AES: (steps) =========
 
 1. cd CUDA_AES
 
