@@ -2,28 +2,39 @@
 
 Usage:
 
-For Serial Implementation of AES: (steps)
+============================For Serial Implementation of AES: (steps) ==========================================
 
-cd SERIAL_AES
+1. cd SERIAL_AES
 
-add a "plaintext.txt" file which needs to be encrypted
+2. replace the plaintext.txt with your file. But, the name should be plaintext.txt
 
-make
+3. make
 
-Result - encrypted.txt decrypted.txt with time
+4. ./test.elf
+
+5. Result - encrypted.txt decrypted.txt with time
+
+You can compare decrypted with plaintext for the accuracy
+
+6. diff decrypted.txt plaintext.txt
+
+============================For Parallel Implementation of AES: (steps) ==========================================
+
+1. cd CUDA_AES
+
+2. replace the plaintext.txt with your file. But, the name should be plaintext.txt
+
+3. Setup the CUDA environment (nvcc should work)
+
+4. make
+
+5. ./test.elf
+
+5. Result - encrypted.txt decrypted.txt with time
 
 You can compare decrypted with plaintext for the accuracy
 
-For Parallel Implementation of AES: (steps)
+6. diff decrypted.txt plaintext.txt
 
-cd CUDA_AES
-
-add a "plaintext.txt" file which needs to be encrypted
-
-make
-
-Result - encrypted.txt decrypted.txt with time
-
-You can compare decrypted with plaintext for the accuracy
 
 Data we used to test our implementation was tweets1m.txt which was used during Mini-Project-2
