@@ -30,11 +30,11 @@ You can compare decrypted with plaintext for the accuracy
 
 5. ./test.elf
 
-5. Result - encrypted.txt decrypted.txt with time
+6. Result - encrypted.txt decrypted.txt with time
 
 You can compare decrypted with plaintext for the accuracy
 
-6. diff decrypted.txt plaintext.txt
+7. diff decrypted.txt plaintext.txt
 
 
 Data we used to test our implementation was tweets1m.txt which was used during Mini-Project-2
